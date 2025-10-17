@@ -1,0 +1,9 @@
+# Ignore requirements.txt
+requirements.txt
+
+# Ignore pictures folder
+markdown_images/
+
+config_microsoft_graph.yaml
+
+README.md
