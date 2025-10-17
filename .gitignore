@@ -7,3 +7,7 @@ markdown_images/
 config_microsoft_graph.yaml
 
 README.md
+
+__pycache__
+
+.venv
