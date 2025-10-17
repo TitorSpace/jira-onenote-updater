@@ -26,9 +26,8 @@ The previous steps are mandatory to make the code executes. Now the next steps w
   ```bash
     pip install -r requirements.txt
 + Go to **main.py** file and you will have to do three things before you execute it:
-  + The *Graph Microsoft access token* that we took in preconditions you will have to put it in the **line-6** variable.
-  + The *Jira access token* that we also generated in preconditions you will have to add it as well in the **line-7** variable.
-  + In line 10 you will see the method that will execute everything. You will just have to set in the argument **page_title** the name of the Onenote page you want to use. It does not matter the section that the page belongs. The query will search it among all the pages of every section.
+  + The *Graph Microsoft access token* and *Jira access token* will have to be added inside the .yaml file.
+  + In line 3 you will see the method that will execute everything. You will just have to set in the argument **page_title** the name of the Onenote page you want to use. It does not matter the section that the page belongs. The query will search it among all the pages of every section.
 ![Alt text](./markdown_images/main.png)
   + In case you like the struct of the chart that the methods create by default, you will just have to go to **helper.py** and in line-55 you will just have to add your jira profile username in the **assigne** part.
     + As I said at the beginning, in case you do not like the information that the query collects, you just have to put the query you desire, but will have to modify as well the mehods **create_onenote_table** and **add_issues_to_table** to organize the data as you want.
